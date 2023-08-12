@@ -24,7 +24,7 @@ Follow these steps to get started with the project:
 
 1. **Clone the Repository:** Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/bank-customer-segmentation.git
+   git clone https://github.com/tushar2704/Bank-German-Customer-Segmentation.git
    ```
 
 2. **Install Dependencies:** Install the required dependencies by running:
@@ -47,21 +47,22 @@ Follow these steps to get started with the project:
 The project repository is organized as follows:
 
 ```
-bank-customer-segmentation/
-│
-├── data/
-│   ├── bank_customer_data.csv      # Bank Customer Segmentation dataset
-│
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb # Data preprocessing notebook
-│   ├── 02_kmeans_clustering.ipynb  # K-Means Clustering implementation
-│   ├── 03_hierarchical_clustering.ipynb # Hierarchical Clustering implementation
-│   ├── 04_gaussian_mixture.ipynb   # Gaussian Mixture Models implementation
-│
-├── README.md                       # Project README (You are here)
-├── requirements.txt                # Project dependencies
+
+├── LICENSE
+├── README.md           <- README .
+├── notebooks           <- Folder containing the final reports/results of this project.
+│   │
+│   └── bank_german_customer_segmentation.py   <- Final notebook for the project.
+├── reports            <- Folder containing the final reports/results of this project.
+│   │
+│   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
+│   
+├── src                <- Source for this project.
+│   │
+│   └── data           <- Datasets used and collected for this project.
+|   └── model          <- Model.
+
 ```
-git a
 
 ## License
 
