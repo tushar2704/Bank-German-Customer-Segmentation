@@ -42,6 +42,13 @@ Follow these steps to get started with the project:
 
 7. **Strategy Formulation:** Based on the insights gained from segment profiling, develop personalized marketing and customer acquisition strategies for each segment.
 
+# Classification ML Model as Flask API on German Credit Risk Data
+
+1. First create the ML model by running `python create_model.py`.
+2. Then, run `python app.py` to start the server. 
+
+The url to access the app will be provided at the console output.
+
 ## Project Structure
 
 The project repository is organized as follows:
