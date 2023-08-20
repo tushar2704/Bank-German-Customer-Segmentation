@@ -32,7 +32,7 @@ def predict():
         purpose = request.form['purpose']
 
         test_arr = np.array([age, sex, job, housing, saving_account, checking_amount, credit_amount, duration, purpose])
-        model = pickle.load(open('ml_model.pkl', 'rb'))
+        model = pickle.load(open('src\model\ml_model.pkl', 'rb'))
         print("Model Object: ", model)
         prediction = model.predict(test_arr)
         predicted = "Risky" if prediction else "No Risk" 
